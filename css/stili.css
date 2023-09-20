@@ -54,6 +54,7 @@ li{
 
 a{
     color: white;
+    text-decoration: none;
 }
 .logo{
    height: 2.5rem;
@@ -158,4 +159,30 @@ a{
 .vecchio-prezzo{
     color: black;
     text-decoration: line-through;
+}
+
+/*Stili Footer*/
+footer{
+    background-color:  rgb(24, 24, 24);
+    width: 100%;
+}
+.footer{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.h3-footer{
+    color: white;
+}
+
+.li-footer{
+    font-size: 0.8rem;
+    margin-left: 0;
+}
+
+h4{
+    color: white;
 }
